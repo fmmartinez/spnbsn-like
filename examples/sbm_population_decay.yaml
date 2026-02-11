@@ -1,0 +1,18 @@
+model:
+  epsilon: 0.0
+  delta: 1.0
+  n_states: 2
+bath:
+  n_modes: 32
+  temperature: 0.2
+  eta: 0.1
+  omega_c: 2.5
+dynamics:
+  dt: 0.01
+  n_steps: 200
+  integrator: rk4
+ensemble:
+  n_traj: 8
+  seed: 1234
+output:
+  save_every: 5
